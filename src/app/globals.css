@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f1b2a;
+  --foreground: #eee5da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f1b2a;
+    --foreground: #eee5da;
+  }
+}
+
+html {
+  background: var(--background);
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: var(--foreground);
+  background: var(--background);
+  transition-property: opacity, background, transform, filter;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  margin: 0;
+  overflow-x: auto;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 740px;
+}
+
+.font-league-spartan {
+  font-family: var(--font-league-spartan);
+}
+
+.font-lato {
+  font-family: var(--font-lato);
+}
+
+@font-face {
+  font-family: "Adamina";
+  font-weight: 300;
+  src: local("Adamina"), url(./fonts/Adamina-Regular.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 900;
+  src: local("Noto Sans Bold"), url(./fonts/NotoSans-Bold.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 300;
+  src: local("Noto Sans Light"), url(./fonts/NotoSans-Light.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Noto Sans Italic";
+  font-weight: 300;
+  src: local("Noto Sans Italic"), url(./fonts/NotoSans-Italic.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Noto Sans Bold Italic";
+  font-weight: 900;
+  font-style: italic;
+  src: local("Noto Sans Bold Italic"), url(./fonts/NotoSans-BoldItalic.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+}
+
+.adamina {
+  font-family: "Adamina", sans-serif;
+}
+
+.NotoSans-Light {
+  font-family: "Noto Sans";
+  font-weight: 300;
+}
+
+.NotoSans-bold {
+  font-family: "Noto Sans";
+  font-weight: 900;
+}
+
+.NotoSans-italic {
+  font-family: "Noto Sans Italic", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.NotoSans-BoldItalic {
+  font-family: "Noto Sans Bold Italic", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.page-transition {
+  opacity: 0;
+  background: #8f573b;
+  filter: blur(12px);
+}
+
+.title-heavy {
+  color: #eee5da;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.title-light {
+  color: #c4e5c9;
+  text-align: right;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.playAnima {
+  -webkit-animation: anima 2s ease-in-out;
+  -moz-animation: anima 2s ease-in-out;
+  -o-animation: anima 2s ease-in-out;
+  transition: anima 2s ease-in-out;
+
+  animation-iteration-count: infinite;
+}
+
+p {
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+p.poesia {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Animation Keyframes*/
+@keyframes anima {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+@-moz-keyframes anima {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+@-webkit-keyframes anima {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+@-o-keyframes anima {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}

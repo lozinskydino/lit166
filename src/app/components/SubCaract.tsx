@@ -1,0 +1,18 @@
+import React from 'react'
+
+const SubCaract = () => {
+  return (
+    <div className='w-[100%] pl-8 pr-8 lg:pl-10 lg:pr-10 flex flex-col min-h-[50vh] justify-around'>
+      <h1 className='adamina text-center text-[26px] text-[#EEE5DA] mb-8'>EXEMPLO DE TEXTO HUMANISTA</h1>
+      <p className='NotoSans-Light text-[#EEE5DA]'>Leia o trecho a seguir da obra O auto da Barca do Inferno, no qual o personagem sapateiro, depois de morto, chega ao porto e quer entrar na barca que leva ao céu, porém é surpreendido com a notícia de que irá ao inferno.</p>
+      <p className='NotoSans-Light text-[#EEE5DA]'><em>Vem um Sapateiro com seu avental e carregado de formas, e chega ao batel infernal, e diz: Sapateiro — Hou da barca! Diabo — Quem vem i? Santo sapateiro honrado, como vens tão carregado?... Sapateiro — Mandaram-me vir assim... E para onde é a viagem? Diabo — Para o lago dos danados. Sapateiro — Os que morrem confessados onde têm sua passagem?</em></p>
+      <p className='NotoSans-Light text-[#EEE5DA]'><em>Diabo — Nom cures de mais linguagem! Esta é a tua barca, esta! Sapateiro — Renegaria eu da festa e da puta da barcagem! Como poderá isso ser, confessado e comungado?!... Diabo — Tu morreste excomungado: Nom o quiseste dizer. Esperavas de viver, calaste dous mil enganos... Tu roubaste bem trint&apos;anos o povo com teu mester. Embarca, era má para ti, que há já muito que t&apos;espero! Sapateiro — Pois digo-te que nom quero! Diabo — Que te pês, hás de ir, si, si! Sapateiro — Quantas missas eu ouvi, nom me hão elas de prestar? Diabo — Ouvir missa, então roubar, é caminho per&apos;aqui. Sapateiro — E as ofertas que darão? E as horas dos finados? Diabo — E os dinheiros mal levados, que foi da satisfação? Sapateiro — Ah! Nom praza ò cordovão, nem à puta da badana, se é esta boa traquitana em que se vê Jan Antão! Ora juro a Deus que é graça! Vai-se à barca do Anjo, e diz: Hou da santa caravela, poderês levar-me nela? Anjo — A carrega t&apos;embaraça. Sapateiro — Nom há mercê que me Deus faça? Isto sequer irá. Anjo — Essa barca que lá está Leva quem rouba de praça. Oh! almas embaraçadas! Sapateiro — Ora eu me maravilho haverdes por grão peguilho quatro forminhas cagadas que podem bem ir chantadas num cantinho desse leito! Anjo — Se tu viveras direito, Elas foram cá escusadas. Sapateiro — Assim que determinais que vá cozer ò Inferno? Anjo — Escrito estás no caderno das ementas infernais. Torna-se à barca dos danados, e diz: Sapateiro — Hou barqueiros! aguardais? Vamos, venha a prancha logo e levai-me àquele fogo! Não nos detenhamos mais!</em></p>
+      <p className='NotoSans-Light text-[#EEE5DA]'>O autor, Gil Vicente, critica o fato de o sapateiro achar que não merece ir para o inferno, pois ia às missas, comungava e se confessava de seus pecados. Aqui, percebemos a análise de que não há perdão para quem não se arrepende de coração quando comete algum pecado, especialmente quando repete o pecado várias vezes.</p>
+      <p className='NotoSans-Light text-[#EEE5DA]'>A obra <em>Vicentina</em> mostra de forma satirizada a mudança do teocentrismo para o antropocentrismo, período de transição do Humanismo. Além disso, apresenta como tema a religião, caracterizando a obra como rústica ou medieval, e transpõe por meio de críticas costumeiras sobre o pensamento medieval fútil, evidenciando o pensamento lógico e racional voltado para o homem.</p>
+      <p className='NotoSans-Light text-[#EEE5DA]'>É importante perceber que, em ambas as obras, o autor critica as pessoas, não as instituições que elas representam.</p>
+    </div>
+
+  )
+}
+
+export default SubCaract
